@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: chocolate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#container{
+    width: 1000px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#container h1{
+    font-size: 80px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid rgb(10, 48, 218);
+    color: antiquewhite;
+}
+#digitalClock{
+    border: 5px solid black;
+    background-color: beige;
+    border-radius: 10px;
+    padding: 10px;
+}
+#clock{
+    font-size: 100px;
+}
